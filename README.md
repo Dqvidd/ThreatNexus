@@ -55,12 +55,12 @@ The tool can handle one or more inputs simultaneously, making it useful for anal
 
 2. You will be prompted with a menu where you can select the type of indicator(s) to investigate:
    ```
-[*] Welcome to ThreatNexus (Use arrow keys to move, <space> to select, <a> to toggle, <i> to invert)
+   [*] Welcome to ThreatNexus (Use arrow keys to move, <space> to select, <a> to toggle, <i> to invert)
    ===================================
-   ○ IP Address
-   ○ Domain Name
-   ○ File Hash (MD5/SHA1/SHA256)
-   ○ Quit
+      ○ IP Address
+      ○ Domain Name
+      ○ File Hash (MD5/SHA1/SHA256)
+      ○ Quit
    ===================================
    ```
 
@@ -69,5 +69,3 @@ The tool can handle one or more inputs simultaneously, making it useful for anal
 ## Example
 
 TODO
-
-```
