@@ -10,7 +10,7 @@ def getMenu():
     """
 
     try:
-        custom_style_fancy = Style(
+        custom_style_fancy = Style(a
             [
                 ("separator", "fg:#009975 bold"),
                 ("qmark", "fg:#009975 bold"),
