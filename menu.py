@@ -10,7 +10,7 @@ def getMenu():
     """
 
     try:
-        custom_style_fancy = Style(a
+        custom_style_fancy = Style(
             [
                 ("separator", "fg:#009975 bold"),
                 ("qmark", "fg:#009975 bold"),
@@ -40,5 +40,5 @@ def getMenu():
         return choices
     
     except Exception as e:
-        print(colored('There has been a problem with the program','red'))
+        print(colored('There has been a problem with the program!','red'))
         exit(1)
