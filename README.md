@@ -1,3 +1,5 @@
+# PROJECT IN PROGRESS...
+
 # ThreatNexus
 
 **ThreatNexus** is an open-source threat intelligence enrichment tool designed to streamline the investigation of suspicious IP addresses, domains, and file hashes. The tool interacts with multiple threat intelligence APIs to provide detailed, actionable data for SOC analysts.
