@@ -1,5 +1,5 @@
-from menu import getMenu
-
+from src.menu import getMenu
+from src.hashes.hashes_virustotal import hashes_virustotal
 __author__ = "Dqvidd"
 __version__ = "0.0.1"
 
@@ -13,14 +13,17 @@ def clear_hashes():
     
 clear_hashes()
 
-if 'IPs' in choices:
+if 'IP Address' in choices:
     #Ips()
     print()
 
-if 'Hashes' in choices:
-    #Hashes()
-    print()
-
-if 'Domains' in choices:
+if 'Domain Name' in choices:
     #Domains()
     print()
+
+if 'File Hash (MD5/SHA1/SHA256)' in choices:
+    hashes_virustotal()
+    print()
+
+if 'Quit':
+    exit(1)
